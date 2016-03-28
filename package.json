@@ -5,7 +5,8 @@
   "main": "dist/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "gulp build"
+    "postinstall": "gulp build",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "Maximilian Alexander <mbalex99@gmail.com> (http://www.blog.edenmsg.com/)",
@@ -25,7 +26,9 @@
     "gulp": "3.9.0",
     "gulp-concat": "2.6.0",
     "gulp-sourcemaps": "1.6.0",
+    "gulp-tslint": "^4.3.3",
     "gulp-typescript": "2.10.0",
-    "run-sequence": "1.1.5"
+    "run-sequence": "1.1.5",
+    "tslint": "^3.6.0"
   }
 }
